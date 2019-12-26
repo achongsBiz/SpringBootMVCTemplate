@@ -11,7 +11,7 @@ Through a DAO class and a set of controllers the rows are transmitted to the use
 
 * ```http://localhost:8080/``` : renders samplePage.jsp
 
-* ```http://llocalhost:8080/v1/retrieve```: example GET RESTful call
+* ```http://localhost:8080/v1/retrieve```: example GET RESTful call
 
 ## How To Prepopulate Data
 Data is populated in **TemplateApplication.java**. The following pattern within the run() method may be used or abstracted:
