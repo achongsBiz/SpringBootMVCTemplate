@@ -1,7 +1,7 @@
 # SpringBootMVCTemplate
 
 ## Introduction
-This is a simple Gradle SpringBoot starter template with a H2 in-memory database.
+This is a simple Gradle SpringBoot starter template with a H2 in-memory database and JSP's to render views.
 
 ## Example Code
 The template contains an example of data transmitted across the stack from the H2 Database to a JSP file or a RESTful endpoint. 
