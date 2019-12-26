@@ -27,8 +27,6 @@ jdbcTemplate.execute("INSERT INTO sampleTab(description) VALUES ('laundry')");
 
 Note that by default H2 is a volatile in-memory database. If the application is stopped and restarted, data will return to its original state. In this example, the original state will be that the application has a table called sampleTab with 3 rows populated.
 
-This makes it ideal for unit testing and proof of concepts.
-
 ## Start the Application from the IDE
 
 This is a SpringBoot application. From IntelliJ, you should right click on **TemplateApplication.java** and select Run. Verify you had a clean start by reviewing the console and ensuring that the server is up and running.
