@@ -39,7 +39,7 @@ The H2 database can be accessed through the following URL: ```http://localhost:8
 
 If you have made no changes to the template, you should see the sampleTab table discussed in the "How To Prepopulate Data" section on the left. 
 
-This site and GUI plays a similar role as other SQL clients, i.e. DB Visualizer from which you can write queries against your tables manually.
+This site plays a similar role as a SQL client, allowing you to write SQL queries against your tables.
 
 ## Configuration
 The ***application.properties*** file has two note worthy things to point out:
