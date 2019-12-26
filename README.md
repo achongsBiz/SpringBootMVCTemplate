@@ -45,7 +45,12 @@ This site and GUI plays a similar role as other SQL clients, i.e. DB Visualizer 
 The ***application.properties*** file has two note worthy things to point out:
 * The ```spring.mvc.view.prefix``` and the ```spring.mvc.view.suffix``` properties point to where the JSP's are defined. The location defined by the former is already part of the template! The file structure does not need to be recreated.
 * The ```db.url``` and ```db.username``` properties are used by the H2 database. These properties are meant to be injected into the DAO, see **MyClassJDBCDAO.java** in the /data package as an example.
-
+  * If you do want to continue to inject these values, the concrete DAO classes must be defined as components, and the consumers of the DAO must autowire these objects in. See **TestMVCController.java** in the /controller package for an example:
+  
+ ```    
+ @Autowired
+    MyClassJDBCDAO jdbcDAO;
+```
 
 
 
